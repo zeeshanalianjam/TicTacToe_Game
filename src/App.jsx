@@ -1,12 +1,13 @@
 import Board from "./components/Board";
+import { Footer } from "./components/Footer";
+import Header from "./components/Header";
 
 export default function App() {
   return (
     <>
-    <h1 className="text-3xl font-bold underline text-center">
-      Tic Tac Toe
-    </h1>
+    <Header />
     <Board />
+    <Footer />
     </>
     
   )
